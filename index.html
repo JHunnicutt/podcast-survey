@@ -10,7 +10,67 @@
 <body>
   <h1 id="title">Podcast survey</h1>
   <p id="description">This is a podcast listener survey.</p>
-  <p>How often</p>
+
+
+
+
+
+
+
+    <form id="survey-form">
+      <p>How often do you listen to podcasts?</p>
+        <select name="often">
+          <option value="not-often">Not that often</option>
+          <option value="fairly-often">Fairly often</option>
+          <option value="very-often">Very often</option>
+          <option value="extremely-often">Extremely often</option>
+        </select>
+
+
+      <p>How many podcasts do you activly subscribe to?</p>
+        <select name="subscribe">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="15-plus">15+</option>
+        </select>
+
+      <p>Do you pay for premium subscriptions?</p>
+        <input type="radio" name="premium" value="yes">Yes
+        <input type="radio" name="premium" value="no">No
+
+      <p>If so, how many?</p>
+        <select name="premium-amount">
+          <option value="n-a">N/A</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="5-plus">5+</option>
+      </select>
+
+      <p>Do you listen to the ads on podcasts?</p>
+        <input type="radio" name="ads" value="yes">Yes
+        <input type="radio" name="ads" value="no">No
+
+      <p>Name your top 3 favorite podcasts.</p>
+        <textarea name="favorites"></textarea>
+
+
+    </form>
 
 </body>
 </html>
